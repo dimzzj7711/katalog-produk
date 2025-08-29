@@ -1,0 +1,37 @@
+footer {
+  background-color: #413434;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+nav{
+    background-color: #fcfaf9;
+    font-family: 'Irish Grover';font-size: 22px;
+}
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white ;
+  font-family: 'Irish Grover', cursive;
+}
+
+.img-h {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+

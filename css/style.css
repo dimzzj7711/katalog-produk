@@ -1,0 +1,103 @@
+footer {
+  background-color: #413434;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+nav{
+    background-color: #fcfaf9;
+    font-family: 'Irish Grover';font-size: 22px;
+}
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white ;
+  font-family: 'Irish Grover', cursive;
+}
+
+.img-h {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.product-image {
+            transition: transform 0.3s ease;
+        }
+        .product-image:hover {
+            transform: scale(1.02);
+        }
+        .thumbnail {
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+        .thumbnail:hover, .thumbnail.active {
+            border-color: #3b82f6;
+            transform: scale(1.05);
+        }
+        .add-to-cart-btn {
+            transition: all 0.3s ease;
+        }
+        .add-to-cart-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(59, 130, 246, 0.3);
+        }
+        .related-product-card {
+            transition: all 0.3s ease;
+        }
+        .related-product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+        }
+        
+
+.col {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #fcfaf9;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+#carouselExampleAutoplaying {
+    max-width: 2000px;
+    margin: 0 auto;
+}
+
+#carouselExampleAutoplaying .carousel-item img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+  font-size: 100px;
+  
+}
+
+

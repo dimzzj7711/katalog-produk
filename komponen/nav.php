@@ -2,7 +2,7 @@
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
 
-        <img src="Vector_Logo_Collection_Eight_Sports_Brands_by_-removebg-preview.png" alt="Bootstrap" width="75" height="75">
+        <img src="img/Vector_Logo_Collection_Eight_Sports_Brands_by_-removebg-preview.png" alt="Bootstrap" width="75" height="75">
     </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>

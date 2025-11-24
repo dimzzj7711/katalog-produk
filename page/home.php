@@ -124,3 +124,5 @@
   </div>
 </div>
 <br><br>
+
+<?php include "./router.php"; ?>

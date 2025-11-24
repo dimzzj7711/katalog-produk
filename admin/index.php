@@ -64,9 +64,9 @@
         </li>
         <li class="pc-item">
           <!-- <a href="../elements/bc_typography.html" class="pc-link"> -->
-            <a href="#" class="pc-link">
+            <a href="?page=genre" class="pc-link">
             <span class="pc-micon"><i class="ti ti-typography"></i></span>
-            <span class="pc-mtext">Typography</span>
+            <span class="pc-mtext">Input Genre</span>
           </a>
         </li>
         <li class="pc-item">
@@ -345,7 +345,7 @@
       <!-- [ Main Content ] start -->
       
         <?php 
-            include "./admin-page/dashboard.php"
+            include "./page/dashboard.php"
         ?>
 
     </div>
@@ -366,6 +366,8 @@
         </div>
       </div>
     </div>
+
+    
   </footer>
 
   <!-- [Page Specific JS] start -->

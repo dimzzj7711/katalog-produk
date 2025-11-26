@@ -52,7 +52,7 @@
     <div class="navbar-content">
       <ul class="pc-navbar">
         <li class="pc-item">
-          <a href="route/index.php?page=dashboard" class="pc-link">
+          <a href="?page=dashboard" class="pc-link">
             <span class="pc-micon"><i class="ti ti-dashboard"></i></span>
             <span class="pc-mtext">Dashboard</span>
           </a>
@@ -64,14 +64,14 @@
         </li>
         <li class="pc-item">
           <!-- <a href="../elements/bc_typography.html" class="pc-link"> -->
-            <a href="route/index.php?page=genre" class="pc-link">
+            <a href="?page=genre&action=create" class="pc-link">
             <span class="pc-micon"><i class="ti ti-typography"></i></span>
             <span class="pc-mtext">Input genre</span>
           </a>
         </li>
         <li class="pc-item">
           <!-- <a href="../elements/bc_color.html" class="pc-link"> -->
-            <a href="#" class="pc-link">
+            <a href="?page=genre&action=index" class="pc-link">
             <span class="pc-micon"><i class="ti ti-color-swatch"></i></span>
             <span class="pc-mtext">Color</span>
           </a>
@@ -345,7 +345,7 @@
       <!-- [ Main Content ] start -->
       
         <?php 
-            include "./admin-page/dashboard.php"
+            include "../route/admin.php"
         ?>
 
     </div>

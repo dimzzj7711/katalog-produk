@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <!-- [Head] start -->
@@ -69,11 +70,10 @@
             <span class="pc-mtext">Input genre</span>
           </a>
         </li>
-        <li class="pc-item">
-          <!-- <a href="../elements/bc_color.html" class="pc-link"> -->
+       <li class="pc-item">
             <a href="?page=genre&action=index" class="pc-link">
             <span class="pc-micon"><i class="ti ti-color-swatch"></i></span>
-            <span class="pc-mtext">Color</span>
+            <span class="pc-mtext">Tampil Genre</span>
           </a>
         </li>
         <li class="pc-item">

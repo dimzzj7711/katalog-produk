@@ -2,7 +2,7 @@
 class Genre{
 
     private $connection;
-    private $table = "tb_genre";
+    private $table = "genre_sepatu";
 
     // public $id;
     public $nama;

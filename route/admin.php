@@ -1,8 +1,8 @@
 <?php
-session_start();
-require_once('../../config/Database.php');
-require_once('../../model/models.php');
-require_once('../../controller/controllers.php');
+// session_start();
+require_once('../config/Database.php');
+require_once('../model/models.php');
+require_once('../controller/Controller.php');
 
 
 
@@ -17,7 +17,7 @@ $genre = new AdminGenreController();
 
 switch ($page){
     case 'dashboard' : include "page/dashboard.php"; break;
-    // case 'genre' : include "page/input_genre.php"; break; 
+    //  case 'genre' : include "page/input_genre.php"; break; 
     case 'genre' : { 
         switch ($action) {
             case 'index' : 

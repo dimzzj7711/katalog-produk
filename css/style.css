@@ -105,6 +105,12 @@ body {
   margin-top: 40px;
 }
 
+.Text {
+  text-align: center;
+  color: #FF8000;
+ margin-bottom: 40px;
+}
+
 /* IMAGE EFFECTS */
 .product-image {
   transition: transform 0.3s ease;
@@ -181,6 +187,8 @@ h1 {
   font-size: 100px;
 }
 
+
+
 /* FOOTER */
 footer {
   background-color: #413434;
@@ -190,3 +198,10 @@ footer {
 }
 
 
+/* page shop */
+.images-shop img {
+ width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}

@@ -27,6 +27,15 @@
       <a href="#contact">#TEAMORTUSEIGHT</a>
     </div>
 
+    <div class="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Fotball</a>
+      <a href="Futsal1.html">Futsall</a>
+      <a href="LifeStyle.html">Lifestyle</a>
+      <a href="index.html">#TEAMORTUSEIGHT</a>
+      <a href="Collection.html">Koleksi</a>
+    </div>
+
     <div class="navbar-extra">
       <a href="#" id="search-button"><i data-feather="search"></i></a>
       <a href="#" id="shopping-cart-button"><i data-feather="shopping-cart"></i></a>
@@ -358,6 +367,18 @@
 
 <script>
   feather.replace();
+</script>
+
+<script>
+  feather.replace();
+
+  const hamburger = document.querySelector('#hamburger-menu');
+  const mobileMenu = document.querySelector('.mobile-menu');
+
+  hamburger.onclick = (e) => {
+    e.preventDefault();
+    mobileMenu.classList.toggle('active');
+  };
 </script>
 
 </html>

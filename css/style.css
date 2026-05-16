@@ -446,6 +446,43 @@ footer {
   color: #000;
 }
 
+/* MOBILE MENU */
+.mobile-menu {
+  position: fixed;
+  top: 70px;
+  right: -100%;
+  width: 280px;
+  height: 100vh;
+  background: #fff;
+  z-index: 9998;
+  transition: 0.3s;
+  padding: 20px;
+  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
+}
+
+.mobile-menu.active {
+  right: 0;
+}
+
+.mobile-menu a {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 18px 0;
+  border-bottom: 1px solid #ddd;
+
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.mobile-menu a::after {
+  content: "›";
+  font-size: 24px;
+}
+
 /* =========================================
    RESPONSIVE
 ========================================= */
@@ -467,6 +504,50 @@ footer {
   html {
     font-size: 80%;
   }
+
+
+   .navbar {
+    padding: 14px 20px;
+  }
+
+  /* logo */
+  .navbar .navbar-logo img {
+    width: 38px;
+    right: 0;
+  }
+
+  /* sembunyikan menu desktop */
+  .navbar .navbar-nav {
+    display: none;
+  }
+
+  /* icon kanan */
+  .navbar-extra {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  .navbar-extra a {
+    color: #111;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* ukuran icon */
+  .navbar-extra svg {
+    width: 18px;
+    height: 18px;
+    stroke-width: 2;
+  }
+
+  /* hamburger tampil */
+  #hamburger-menu {
+    display: flex;
+  }
+
+
 
   /* ===== NAVBAR ===== */
   .navbar {
@@ -611,8 +692,8 @@ footer {
     font-size: 17px;
   }
 
-}
 
+}
 
 /* ================= MOBILE ================= */
 @media screen and (max-width: 450px) {
@@ -621,6 +702,23 @@ footer {
     font-size: 70%;
   }
 
+  .navbar {
+    padding: 12px 16px;
+  }
+
+  .navbar .navbar-logo img {
+    width: 34px;
+  }
+
+  .navbar-extra {
+    gap: 12px;
+  }
+
+  .navbar-extra svg {
+    width: 17px;
+    height: 17px;
+  }
+  
   /* ===== NAVBAR ===== */
   .navbar {
     padding: 1rem 4%;

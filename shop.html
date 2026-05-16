@@ -33,6 +33,17 @@
       <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
     </div>
 
+    <div class="mobile-menu">
+      <a href="index.html">Home</a>
+      <a href="shop.html">Fotball</a>
+      <a href="Futsal.html">Futsall</a>
+      <a href="LifeStyle.html">Lifestyle</a>
+      <a href="Contact.html">#TEAMORTUSEIGHT</a>
+      <a href="Collection.html">Koleksi</a>
+    </div>
+
+    
+
     <!-- Search Form start -->
     <div class="search-form">
       <input type="search" id="search-box" placeholder="search here...">
@@ -358,6 +369,18 @@
 
 <script>
   feather.replace();
+</script>
+
+<script>
+  feather.replace();
+
+  const hamburger = document.querySelector('#hamburger-menu');
+  const mobileMenu = document.querySelector('.mobile-menu');
+
+  hamburger.onclick = (e) => {
+    e.preventDefault();
+    mobileMenu.classList.toggle('active');
+  };
 </script>
 
 </html>

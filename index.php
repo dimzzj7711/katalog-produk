@@ -12,7 +12,7 @@
 
            
             
-            include "page/home.php";
+            include "page.1/home.php";
 
             include "komponen/footer.php";
             ?>

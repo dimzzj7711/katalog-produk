@@ -3,7 +3,7 @@
     
     <!-- Logo & Description -->
     <div style="flex:1; min-width:200px;">
-      <img src="Vector_Logo_Collection_Eight_Sports_Brands_by_-removebg-preview.png" alt="Ortuseight Logo" style="width:100px; margin-bottom:15px;">
+      <img src="img/Vector_Logo_Collection_Eight_Sports_Brands_by_-removebg-preview.png" style="width:100px; margin-bottom:15px;">
       <p style="max-width:300px; font-size:14px; line-height:1.5;">
         Ortuseight adalah merek olahraga yang menggabungkan kualitas dan gaya untuk para atlet dan pecinta olahraga.
       </p>

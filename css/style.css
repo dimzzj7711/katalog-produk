@@ -187,6 +187,11 @@ body {
   display: block;
 }
 
+.image-container  img {
+    margin-top: 20px;
+    width: 100%;
+  }
+
 /* IMAGE CONTAINER */
 .image-container-2 img,
 .image-container-3 img,
@@ -204,6 +209,8 @@ body {
 .image-container-3 img {
   margin-top: 40px;
 }
+
+
 
 .Text {
   text-align: center;
@@ -483,22 +490,262 @@ footer {
   font-size: 24px;
 }
 
-/* =========================================
-   RESPONSIVE
-========================================= */
+
+.hero-container {
+  position: relative;
+  text-align: center;
+  color: white ;
+  font-family: 'Irish Grover', cursive;
+}
+
+.img-h {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 
-/* ================= LAPTOP ================= */
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  padding: 10px 30px;
+  border-radius: 10px;
+}
+
+.container {
+  width: 90%;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* Product Section */
+.product-section {
+  padding: 60px 0;
+}
+
+.product-wrapper {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+/* Gallery */
+.main-image {
+  background: #f8f8f8;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.main-image img {
+  width: 100%;
+  display: block;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.thumbnails img {
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #eee;
+  transition: 0.3s;
+}
+
+.thumbnails img:hover {
+  border-color: #000;
+}
+
+/* Product Info */
+.badge {
+  display: inline-block;
+  background: #111;
+  color: #fff;
+  font-size: 12px;
+  padding: 6px 12px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.product-info h1 {
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.sku {
+  color: #888;
+  margin: 10px 0 20px;
+  font-size: 14px;
+}
+
+.price {
+  font-size: 34px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+/* Options */
+.option-group {
+  margin-bottom: 25px;
+}
+
+.option-group label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.colors {
+  display: flex;
+  gap: 10px;
+}
+
+.color {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  cursor: pointer;
+}
+
+.color.active {
+  border: 3px solid #111;
+}
+
+.sizes {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.sizes button {
+  width: 50px;
+  height: 42px;
+  border: 1px solid #ddd;
+  background: #fff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.sizes button.active,
+.sizes button:hover {
+  background: #111;
+  color: #fff;
+}
+
+/* Quantity */
+.quantity {
+  display: flex;
+  width: 140px;
+  margin-bottom: 30px;
+}
+
+.quantity button,
+.quantity input {
+  width: 46px;
+  height: 46px;
+  border: 1px solid #ddd;
+  text-align: center;
+  background: #fff;
+}
+
+.quantity input {
+  border-left: none;
+  border-right: none;
+}
+
+/* Buttons */
+.actions {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.actions button {
+  flex: 1;
+  padding: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.btn-primary {
+  background: #111;
+  color: #fff;
+}
+
+.btn-secondary {
+  background: #ff6600;
+  color: #fff;
+}
+
+.actions button:hover {
+  opacity: 0.9;
+}
+
+/* Features */
+.features {
+  list-style: none;
+  margin-top: 20px;
+}
+
+.features li {
+  margin-bottom: 8px;
+  color: #444;
+  position: relative;
+  padding-left: 20px;
+}
+
+.features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: #0a8f3d;
+  font-weight: bold;
+}
+        
+       
+
+/* Responsif */
+
+
+/*  LAPTOP  */
 @media screen and (max-width: 1366px) {
 
   html {
     font-size: 95%;
   }
-
+  .image-container  img {
+    margin-top: 20px;
+    width: 100%;
+  }
+  body{
+    margin: 0;
+  }
 }
 
 
-/* ================= TABLET ================= */
+
+
+
+/*  TABLET  */
 @media screen and (max-width: 768px) {
 
   html {
@@ -549,7 +796,7 @@ footer {
 
 
 
-  /* ===== NAVBAR ===== */
+  /*  NAVBAR  */
   .navbar {
     padding: 1rem 5%;
   }
@@ -590,7 +837,7 @@ footer {
     right: 5%;
   }
 
-  /* ===== HERO ===== */
+  /*  HERO  */
   .hero-container {
     margin-top: 72px;
   }
@@ -599,7 +846,7 @@ footer {
     font-size: 48px;
   }
 
-  /* ===== IMAGE ===== */
+  /*  IMAGE  */
   .image-container img {
     width: 100%;
     max-height: 320px;
@@ -610,7 +857,7 @@ footer {
     margin-top: 72px;
   }
 
-  /* ===== NEWS ===== */
+  /*  NEWS  */
   .news-section {
     padding: 30px 20px;
   }
@@ -639,7 +886,7 @@ footer {
     justify-content: center;
   }
 
-  /* ===== FILTER ===== */
+  /*  FILTER  */
   .filter-bar {
     flex-wrap: wrap;
     gap: 15px;
@@ -656,7 +903,7 @@ footer {
     font-size: 14px;
   }
 
-  /* ===== PRODUCT ===== */
+  /*  PRODUCT  */
   .product-section {
     padding: 25px 20px;
   }
@@ -695,7 +942,7 @@ footer {
 
 }
 
-/* ================= MOBILE ================= */
+/*  MOBILE  */
 @media screen and (max-width: 450px) {
 
   html {
@@ -719,7 +966,7 @@ footer {
     height: 17px;
   }
   
-  /* ===== NAVBAR ===== */
+  /*  NAVBAR  */
   .navbar {
     padding: 1rem 4%;
   }
@@ -744,7 +991,7 @@ footer {
     height: 4rem;
   }
 
-  /* ===== HERO ===== */
+  /*  HERO  */
   .hero-container {
     margin-top: 65px;
   }
@@ -753,7 +1000,7 @@ footer {
     font-size: 32px;
   }
 
-  /* ===== IMAGE ===== */
+  /*  IMAGE  */
   .image-container img {
     width: 100%;
     max-height: 190px;
@@ -764,7 +1011,7 @@ footer {
     margin-top: 65px;
   }
 
-  /* ===== NEWS ===== */
+  /*  NEWS  */
   .news-section {
     padding: 20px 15px;
   }
@@ -788,7 +1035,7 @@ footer {
     padding: 12px;
   }
 
-  /* ===== FILTER ===== */
+  /*  FILTER  */
   .filter-bar {
     padding: 15px 10px;
     gap: 10px;
@@ -803,7 +1050,7 @@ footer {
     font-size: 12px;
   }
 
-  /* ===== PRODUCT ===== */
+  /*  PRODUCT  */
   .product-section {
     padding: 20px 15px;
   }
@@ -851,7 +1098,7 @@ footer {
     font-size: 16px;
   }
 
-  /* ===== FOOTER ===== */
+  /*  FOOTER  */
   footer {
     padding: 20px 15px;
     text-align: center;
